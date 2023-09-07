@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(24, 24, 24);
+}
+
+.tab {
+  display: inline-block;
+  margin-left: 2.5em;
+}
+
+.centered {
+  position: absolute; /* or absolute */
+  top: 50%;
+  left: 50%;
+  display: block;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  width: 100%;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 50px;
+  white-space: nowrap;
+  line-height: 0%;
+  color: white;
+}
+
+#background {
+  padding: 3rem;
+  background-color: #292726;
+  border-radius: 40px;
+  box-shadow: 0 0 4rem 1rem rgba(0, 0, 0, 0.4);
+}
